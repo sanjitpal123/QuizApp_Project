@@ -1,0 +1,86 @@
+body {
+    background-color: #632fff;
+}
+
+#box {
+    margin: 50px auto;
+    background-color: white;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    font-size: 24px;
+}
+h1{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-style: italic;
+    margin-right: 5px;
+}
+li{
+    background-color: #632fff;
+    border: 2px solid white;
+    margin-left: -10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+}
+li:hover{
+    box-shadow: 0 0 10px rgb(235, 40, 53)
+}
+.answer{
+    border: 1px solid orangered;
+}
+
+#submit {
+    width: 50%;
+    height: 40px;
+    background-color:orangered;
+    
+    color: white;
+    font-size: 18px;
+    margin-left: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid white;
+
+}
+
+#submit:hover {
+    box-shadow: 0 0 10px rgb(0 0 0.5);
+}
+
+#scoreshow {
+    height: 80px;
+    width: 80%;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 32px;
+    display: none;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    background-color: black;
+}
+
+.playagain {
+    height: 30px;
+    width: 140px;
+    background-color: crimson;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-left: 97px;
+
+}
+
+.score {
+    text-align: center;
+}
